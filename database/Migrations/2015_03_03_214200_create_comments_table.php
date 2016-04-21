@@ -12,7 +12,7 @@ class CreateCommentsTable extends Migration {
      */
     public function up()
     {
-        Schema::create('comments', function($table)
+        Schema::create('blog_comments', function($table)
         {
             $table->increments('id');
             $table->string('hash', 80)->unique();
@@ -33,7 +33,7 @@ class CreateCommentsTable extends Migration {
      */
     public function down()
     {
-        Schema::dropIfExists('comments');
+        Schema::dropIfExists('blog_comments');
     }
 
 }

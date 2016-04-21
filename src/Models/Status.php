@@ -10,7 +10,7 @@ class Status extends BaseModel
      *
      * @var string
      */
-    protected $table = 'statuses';
+    protected $table = 'blog_statuses';
 
     /**
      * The attributes that are mass assignable

@@ -14,7 +14,7 @@ class Category extends BaseModel
      *
      * @var string
      */
-    protected $table = 'categories';
+    protected $table = 'blog_categories';
 
     /**
      * The attributes that are mass assignable

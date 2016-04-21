@@ -15,7 +15,7 @@ class Tag extends BaseModel
      *
      * @var string
      */
-    protected $table = 'tags';
+    protected $table = 'blog_tags';
 
     /**
      * The attributes that are mass assignable

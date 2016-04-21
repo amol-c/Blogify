@@ -10,7 +10,7 @@ class Visibility extends BaseModel
      *
      * @var string
      */
-    protected $table = 'visibility';
+    protected $table = 'blog_visibility';
 
     /**
      * The attributes that are mass assignable

@@ -12,7 +12,7 @@ class CreatePostsHaveTagsTable extends Migration {
      */
     public function up()
     {
-        Schema::create('posts_have_tags', function($table)
+        Schema::create('blog_posts_have_tags', function($table)
         {
             $table->increments('id');
             $table->integer('post_id')->unsigned();
@@ -30,7 +30,7 @@ class CreatePostsHaveTagsTable extends Migration {
      */
     public function down()
     {
-        Schema::dropIfExists('posts_have_tags');
+        Schema::dropIfExists('blog_posts_have_tags');
     }
 
 }

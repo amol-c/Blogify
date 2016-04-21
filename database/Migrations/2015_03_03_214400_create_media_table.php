@@ -12,7 +12,7 @@ class CreateMediaTable extends Migration {
      */
     public function up()
     {
-        Schema::create('media', function($table)
+        Schema::create('blog_media', function($table)
         {
             $table->increments('id');
             $table->string('hash', 80)->unique();
@@ -32,7 +32,7 @@ class CreateMediaTable extends Migration {
      */
     public function down()
     {
-        Schema::dropIfExists('media');
+        Schema::dropIfExists('blog_media');
     }
 
 }

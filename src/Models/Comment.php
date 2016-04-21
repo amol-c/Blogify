@@ -14,7 +14,7 @@ class Comment extends BaseModel
      *
      * @var string
      */
-    protected $table = 'comments';
+    protected $table = 'blog_comments';
 
     /**
      * The attributes that are mass assignable

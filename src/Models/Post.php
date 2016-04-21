@@ -15,7 +15,7 @@ class Post extends BaseModel
      *
      * @var string
      */
-    protected $table = 'posts';
+    protected $table = 'blog_posts';
 
     /**
      * The attributes that are mass assignable
