@@ -16,7 +16,7 @@ class AddStatusAndVisibilityIdToPostsTable extends Migration {
 
     public function down()
     {
-        Schema::table('blog_questions', function(Blueprint $table)
+        Schema::table('blog_posts', function(Blueprint $table)
         {
             $table->dropColumn('status_id');
             $table->dropColumn('visibility_id');
